@@ -34,10 +34,12 @@ def super_shuffles(list1, list2): #defining function -- this line works
             
             secret_identities.append((secret_identity)) #append secret_identy variable to to secret identities list
     
-    return secret_identities #what is being printed? 
+    return secret_identities 
             
 #function call -- this code is fine
 super_shuffles(students, supers) #the feeding the function students list and supers list
+
+print super_shuffles(students, supers) #what is being printed? how is it different from what line 33 is outputting?
 
 
 """
