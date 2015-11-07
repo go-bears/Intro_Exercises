@@ -1,4 +1,4 @@
-Here are a couple Practice Problems for you to work on after your class exercises. 
+Here are a couple Practice Problems for you to work on after your class exercises.  this is a primarily a thinking exercise. Write down the steps or methods you think it would take the solve the problem. 
 
 
 For each problem, create a function that meets the objective.
@@ -10,3 +10,6 @@ For each problem, create a function that meets the objective.
 3.     takes a sequence  of one or more numbers, and returns the smallest and largest numbers, in the form of a tuple of length two.  Do not use the built-in functions min or max in implementing your solution
 
 4.     Write a function that takes a positive integer n and returns the sum of the squares of all the positive integers smaller than n
+
+Stretch Goal:
+If you want to test your "recipe" of problem solving steps, feel free to use any language you're currently comfortable with (blockly, scratch, snap!, python, javascript, ruby etc)
