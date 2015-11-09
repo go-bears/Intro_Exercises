@@ -30,7 +30,7 @@ def super_shuffles(list1, list2): #defining function -- this line works
             secret = supers.pop() #pop last list element & save to variable
             identity = students.pop() #pop last list element in students & save to variable
             secret_identity = secret + " " + identity #
-            print secretidentity #
+            print secretidentity ##
             
             secret_identities.append((secret_identity)) #append secret_identy variable to to secret identities list
     
