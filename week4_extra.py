@@ -78,3 +78,7 @@ def print_grid():
 
 print_grid()
 
+
+"""
+credits: exercises borrowed and adapted from Allen Downey and Torbjörn Lager
+"""
