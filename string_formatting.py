@@ -104,7 +104,7 @@ print new_string[-1] # what do you thinking this line  will print?
 #=========================================================
 
 
-# Going off script!!!!!!!!!!!!! 
+# Going off script!!!!!!!!!!!
 # Yeah, you want more!
 # We got you covered!
 
