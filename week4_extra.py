@@ -18,7 +18,7 @@ take it further:
 write a function function that takes in a string via raw_input() 
 returns the total number of vowels that are in the string.
 
-Revise the function so that the function that it outputs the count of each vowel in the string.
+Revise the function so that the function that it outputs the count of each vowel in the string
 
 """
 
