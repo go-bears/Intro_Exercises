@@ -13,18 +13,18 @@ students = ["drew", "meg", "olivia", "piril", "luisa", " jaya", "monique" ,
 supers = ["wonder", "bat", "super", "lightening", "flash", "invisible", "aqua",
 "cat", "hulk", "freeze", "storm", " ", " ", " ", " ", " ", " ", " ", ]
 
+secret_identities = [] #set variable to an empty list
 
 #Broken code!!! Can you find and fix  the syntax errors?
 # write comments on what the code is doing on at # mark
 
 def super_shuffles(list1, list2): #defining function -- this line works
-   
     random.shuffle(list1) #use imported random module to shuffle list1
     students -- list1  #
     random.shuffle(list2) #use imported random module to shuffle list1
     supers = list2 #
 
-    secret_identities = [] #set variable to an empty list
+    
     for person in student: # start for loop for students list
         for power in suprs: #start start for loop for supers list
             secret = supers.pop() #pop last list element & save to variable
