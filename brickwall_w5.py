@@ -10,7 +10,7 @@ use the individual brick functions to create rows of bricks to build a "strong" 
 
 Finally, create a small_wall() function that automatically builds the brick wall so it matches the sample output below. Note the seams of the bricks should not line up to make the strongest wall
 
-print small_wall() is the trigger to build the entire wall, all the functions return outputs until the last function call.
+small_wall() is the trigger to build the entire wall, all the functions return outputs until the last function call.
 
 
 Take it further: 
