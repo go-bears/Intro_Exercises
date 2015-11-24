@@ -3,9 +3,9 @@ Brick Wall exercise:
 
 Functions are used to isolate different small specific tasks.
 Functions abstract action, grouping several actions as a single object, and then you group those actions to create more  bigger and more advanced objects. 
-to 
+ 
 
-Goal: I've given you "starter functions" of  that create different size bricks.
+Goal: I've given you "starter functions" of  that create different rows.
 use the individual brick functions to create rows of bricks to build a "strong" wall. You have to design your "row" functions so that the seams do not meet. (there's a sample below)
 
 Finally, create a small_wall() function that automatically builds the brick wall so it matches the sample output below. Note the seams of the bricks should not line up to make the strongest wall
