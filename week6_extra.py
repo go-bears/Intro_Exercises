@@ -3,11 +3,11 @@
 Define a function procedures input_num() and histogram() that takes asks a user for 3 or more integers, appends the inputs into list of integers and prints a histogram to the screen. 
 
 For example, histogram([4, 9, 7]) should print the following:
-|
-|****
-|*********
-|******
-|
+
+****
+*********
+******
+
 
 
 learning goals: chaining functions , lists, loops, print statements
