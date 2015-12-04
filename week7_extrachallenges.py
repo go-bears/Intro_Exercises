@@ -8,8 +8,8 @@ A string is simply an ordered collection of symbols selected from some alphabet 
 
 Given: A DNA string s of length at most 1000 nt.
 
-Return: Four integers (separated by spaces) counting the respective number of times that the symbols 'A', 'C', 'G', and 'T' occur in the DNA string as 
-    tuples
+Return:  Four integers (separated by spaces) counting the respective number of times that the symbols 'A', 'C', 'G', and 'T' occur in the DNA string as 
+    tuples using a function
     
 
 expected output:
@@ -20,6 +20,8 @@ expected output:
 
 or 
 [(A, 235), (C, 198), (G, 204), (T, 238)]
+
+Learning goals: loops, conditionals, functions, tuples
 
 
 """
@@ -45,5 +47,7 @@ Your task in this exercise is to implement an encoder/decoder of ROT-13. Once yo
 
 Note that since English has 26 characters, your ROT-13 program will be able to both encode and decode texts written in English.
 
+
+Learning goals: loops, conditionals, functions, dictionaries
 """
 
