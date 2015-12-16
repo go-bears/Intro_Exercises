@@ -22,7 +22,7 @@ learning goals: abstraction, chaining functions, return vs. print statements, ca
 """
 import time
 
-bricks = [ " ", "[]", "[__]", "[____]", "[______]" ]
+bricks = [ "[]", "[__]", "[____]", "[______]" ]
 
 
 
