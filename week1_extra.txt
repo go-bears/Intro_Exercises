@@ -12,4 +12,4 @@ For each problem, create a function that meets the objective.
 4.     Write a function that takes a positive integer n and returns the sum of the squares of all the positive integers smaller than n
 
 Stretch Goal:
-If you want to test your "recipe" of problem solving steps, feel free to use any language you're currently comfortable with (blockly, scratch, snap!, python, javascript, ruby etc)
+If you want to test your "recipe" of problem solving steps, feel free to use any language you're currently comfortable with (blockly, scratch, snap!, python, javascript, ruby, etc)
