@@ -1,0 +1,47 @@
+﻿Test Driven Development Exercise:
+
+It's your first day as a programmer at Will-Code-for-Food Consulting! You're assigned to the Roam-ba Project-- a household robot that vacuums floors and sends tweets about traveling the world—freeing users from these inconveniences.
+
+Unfortunately, Roam-ba's lead engineer just quit to work at Uber-melon, an on-demand melon delivery service. You're the only engineer on this project now.  Fortunately, Will-Code-for-Food uses the TDD methodology and all the tests for a working program are already written. 
+
+Your goal is to finish robot_simulator.py so that it passes all tests in robot_simulator_test.py  
+
+1) copy both files, robot_simulator.py and robot_simulator_test.py, to the same folder on your computer:
+
+2) Run  robot_simulator_test.py to see which tests are failing. 
+
+	$ python robot_simulator_test.py
+
+3) In terminal , you should see something like:
+
+	FFFF..FFF..
+	=========================================================
+	[  … blah blah … all the errors in the failing tests … ]
+
+	----------------------------------------------------------------------
+	Ran 11 tests in 0.019s
+
+	FAILED (failures=7)
+
+4 ) Review the failed outputs to figure out which tests are failing and why. 
+     Review the actual tests to see which conditions are being tested. 
+    
+	Do not change anything in robot_simulator_test.py !
+	All the import statements for functions and constants are correct.
+
+5) Open robot_simulator.py in your text editor. Read the working code and familiarize yourself with how the class attributes and methods work together. Make comments on the code with “#” to help yourself figure out these relationships.
+
+6) Complete implementations of two remaining methods. (hint : what does pass do?)
+
+​	Do not change the names of the functions or the tests will fail!
+	Class methods don't need a return here
+
+6) Run robot_simulator_test.py after every method implementation to make sure the method is working correctly. When you pass all the tests you should see this:
+
+	...........
+	----------------------------------------------------------------------
+	Ran 11 tests in 0.001s
+
+	OK
+
+7)  When all tests pass, give yourself a high-five because this wasn't easy!
