@@ -2,19 +2,26 @@
 Brick Wall exercise:
 
 Functions are used to isolate different small specific tasks.
-Functions abstract action, grouping several actions as a single object, and then you group those actions to create more  bigger and more advanced objects.
+Functions abstract action, grouping several actions as a single object,
+and then you group those actions to create more  bigger and more advanced objects.
 
 
-Goal: I've given you "starter functions" of  that create different rows.
-use the individual brick functions to create rows of bricks to build a "strong" wall. You have to design your "row" functions so that the seams do not meet. (there's a sample below)
+Goal: I've given you "starter functions" of that create different rows.
+use the individual brick functions to create rows of bricks to build a "strong" wall.
+You have to design your "row" functions so that the seams do not meet. (there's a sample below)
 
-Finally, create a small_wall() function that automatically builds the brick wall so it matches the sample output below. Note the seams of the bricks should not line up to make the strongest wall
+Finally, create a small_wall() function that automatically builds the brick wall
+so it matches the sample output below. Note the seams of the bricks should not line up to
+make the strongest wall
 
-small_wall() is the trigger to build the entire wall, all the functions return outputs until the last function call.
+small_wall() is the trigger to build the entire wall, all the functions return
+outputs until the last function call.
 
 
 Take it further:
-make a medium_wall() function and a large_wall() function, making sure to use all the brick sizes.
+1) write the large_wall() function that uses the strings returned in the row function
+2) write a new function that automates building a wall and that uses all the bricks.
+    make sure you call the function under the def main() to have the new function run.
 
 
 learning goals: abstraction, chaining functions, return vs. print statements, calling functions, passing values through function parameters and arguments, calling elements from a list, global & local scope
@@ -27,9 +34,9 @@ bricks = [ "[]", "[__]", "[____]", "[______]" ]
 
 
 def row1(brick_size1, brick_size2):
-    brick1 = brick_size1 #example code, you can replace it
-    brick2 = brick_size2  #example code, you can replace it
-    row1 = (brick2 + brick2 + brick1) #sample code, you can replace it
+    brick1 = brick_size1 # example code
+    brick2 = brick_size2  # example code
+    row1 = (brick2 + brick2 + brick1) # sample code, you can replace it
     return row1
 
 def row2(brick_size1, brick_size2, brick_size3):
@@ -79,7 +86,7 @@ def small_wall():
     #call row function with relevant argument(s)
 
 def large_wall():
-    """create a function that builds a large wall"""
+    """Extra challenge: create a function that builds a large wall"""
     # use the return outputs of the current functions to build a larger wall
     # do not alter the row functions after you complete the small wall
     # the small wall and the large wall should both display in the terminal correctly
