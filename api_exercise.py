@@ -40,7 +40,7 @@ def lat_long(location):
 print lat_long('Mumbai') # output should be (19.0759837, 72.8776559)
 print lat_long("Dushanbe")
 print lat_long("boston")
-print lat_long('san%francisco') #this api link can't have any spaces,replace spaces with '%'
+print lat_long('san%francisco') #this api link can't have any spaces,replace spaces with '%', can you find a python method that automates this?
 
 
 # Take it further:
